@@ -1,0 +1,39 @@
+
+
+.calc-table {
+    display: flex;
+    justify-content: center;
+    table-layout: fixed;
+}
+
+td {
+    width: 100%;
+    height: 60px;
+}
+
+.calc-table button {
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+    border-radius: 15px;
+    border: none;
+    background-color: #dcdcdc;
+}
+
+.calc-table button:hover {
+    background-color: #d3d3d3;
+}
+
+.calc-table button:active {
+    background-color: #c0c0c0;
+}
+
+#display {
+    width: 500px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: right;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
